@@ -1,0 +1,2 @@
+V	150730200836Z		01	unknown	/C=FR/ST=Radius/O=Example Inc./CN=Example Server Certificate/emailAddress=admin@example.com
+V	150730200836Z		02	unknown	/C=FR/ST=Radius/O=Example Inc./CN=user@example.com/emailAddress=user@example.com
