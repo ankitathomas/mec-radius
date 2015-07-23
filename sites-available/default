@@ -304,7 +304,7 @@ authorize {
 	#  If you have a Cisco SIP server authenticating against
 	#  FreeRADIUS, uncomment the following line, and the 'digest'
 	#  line in the 'authenticate' section.
-	digest
+#!	digest
 
 	#
 	#  The WiMAX specification says that the Calling-Station-Id
@@ -378,7 +378,7 @@ authorize {
 
 	#
 	#  The ldap module reads passwords from the LDAP database.
-	-ldap
+#!	-ldap
 
 	#
 	#  Enforce daily limits on time spent logged in.
@@ -467,7 +467,7 @@ authenticate {
 	#  If you have a Cisco SIP server authenticating against
 	#  FreeRADIUS, uncomment the following line, and the 'digest'
 	#  line in the 'authorize' section.
-	digest
+#!	digest
 
 	#
 	#  Pluggable Authentication Modules.
@@ -646,7 +646,7 @@ session {
 
 	#
 	#  See "Simultaneous Use Checking Queries" in sql.conf
-#	sql
+	sql
 }
 
 
